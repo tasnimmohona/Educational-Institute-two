@@ -1,0 +1,226 @@
+/*============================================ navbar =============================================== */
+@media (max-width:992px) {
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        background-color:#252C3A;
+        padding:20px 20px;
+   }
+    .navbar-dark.sticky {
+        background-color:#252C3A;
+   }
+    .navbar-dark .navbar-nav .nav-link{
+        color: white;
+   }
+    .nav-item.current a{
+        color: #ffc480;
+        font-weight: bolder;
+   }
+    .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+        color:white;
+   }
+    .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+        color:#ffc480;
+   }
+    .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:focus {
+        color:white;
+   }
+    .nav-item a::after{
+        left: 5%;
+   }
+    .nav-item a:hover::after{
+        width: 10%;
+   }
+}
+@media only screen and (min-width:200px) and (max-width:992px) {
+   /* admission */
+    .rightadmission{
+        width: 90%;
+        order: 1;
+        margin-top:5%;
+   }
+    .navbar-dark .navbar-toggler:hover {
+        color:#f9b47a;
+   }
+}
+@media only screen and (min-width:780px) and (max-width: 992px) {
+   /* background */
+    .backgroundText h1{
+        color:#ffc480;
+        font-size: 39px;
+        word-spacing:1px;
+   }
+    .backgroundText p{
+        font-size:17px;
+   }
+    .backgroundText button{
+        background:#ffc480;
+        color:#ffffff;
+        height: 55px;
+        width: 230px;
+        font-size: 17px;
+        font-weight: bold;
+   }
+   /* department */
+    .departmentHeader{
+        margin-top:50px;
+   }
+    .departmentHeader h5{
+        font-size: 38px;
+   }
+    .departmentHeader p{
+        font-size: 15px;
+   }
+    .departmentOne p{
+        font-size:28px;
+   }
+   /* admission */
+    .leftadmission img{
+        margin-top:0px;
+   }
+    .rightadmission h5{
+        margin-bottom:2%;
+        font-size: 38px;
+   }
+    .rightadmission p{
+        font-size: 16px;
+        line-height: 18px;
+        margin-top:4%;
+   }
+   /* counter */
+    .counter-content h4{
+        font-size: 38px;
+   }
+   /* news */
+    #news{
+        margin-top:-200px;
+   }
+    .news-content{
+        margin-top: 70px;
+        margin-bottom: 70px;
+   }
+   /* Around the university */
+    .newsHeader h5{
+        font-size: 38px;
+   }
+   /* footer */
+    #footer{
+        padding:65px 0;
+   }
+    .footerone p{
+        margin-top: -14px;
+   }
+    .footertwo h2,.footerthree h2,.footerfour h2{
+        font-size:13px;
+   }
+    .footerone h2{
+        font-size: 27px;
+   }
+    .footerone span{
+        color:#969595;
+        font-size:13px;
+   }
+    .footerheader{
+        margin-bottom:20px;
+   }
+    .footerone,.footertwo,.footerthree,.footerfour{
+        margin: 30px 0;
+   }
+}
+@media only screen and (min-width:200px) and (max-width:779px) {
+    #background{
+        height: 115vh;
+   }
+    .backgroundText h1{
+        font-size: 36px;
+   }
+    .backgroundText p{
+        font-size:16px;
+        font-weight: bold;
+        padding:15px 15px;
+   }
+    .backgroundText button{
+        height: 54px;
+        width:180px;
+        font-size: 17px;
+   }
+   /* department */
+    .departmentHeader{
+        margin-top:0px;
+   }
+    .departmentHeader h5{
+        font-size: 36px;
+   }
+    .departmentHeader p{
+        padding-top: 10px;
+   }
+   /* admission */
+    .leftadmission img{
+        margin-top:0px;
+        height: 70vh;
+   }
+    .rightadmission h5{
+        font-size: 36px;
+   }
+    .rightadmission p{
+        font-size: 16px;
+        line-height: 18px;
+        margin-top:4%;
+   }
+    .news-content{
+        margin-top: 75px;
+        margin-bottom: 75px;
+   }
+   /* Around the university */
+    .newsHeader h5{
+        font-size: 36px;
+   }
+   /* footer */
+    #footer{
+        padding:50px 0px;
+   }
+    .footerone h2{
+        font-size: 26px;
+   }
+    .footerone,.footertwo,.footerthree,.footerfour{
+        margin: 10px 0;
+   }
+}
+@media only screen and (min-width:993px) and (max-width:1300px) {
+    #news{
+        margin-top: -100px;
+   }
+}
+@media only screen and (min-width:500px) and (max-width:777px) {
+   /* news */
+    #news{
+        margin-top:-200px;
+   }
+}
+@media only screen and (min-width:451px) and (max-width:499px) {
+   /* news */
+    #news{
+        margin-top:-250px;
+   }
+}
+@media only screen and (min-width:200px) and (max-width:450px) {
+   /* news */
+    #news{
+        margin-top:-100px;
+   }
+}
+@media only screen and (min-width:100px) and (max-width:333px) {
+   /* news */
+}
+/* popup */
+@media only screen and (min-width:200px) and (max-width: 940px) {
+    #popup{
+        height: 300px;
+        width: 300px;
+   }
+    #subscribeId{
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+   }
+    #popup{
+        left:10%;
+   }
+}
