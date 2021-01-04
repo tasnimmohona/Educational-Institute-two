@@ -17,6 +17,10 @@
      top:35%;
      left:32%;
      transform: translateY(-50%,-50%);
+     -moz-box-shadow: 1px 2px 5px 3px white;
+     -ms-box-shadow: 1px 2px 5px 3px white;
+     -o-box-shadow: 1px 2px 5px 3px white;
+     -webkit-box-shadow: 1px 2px 5px 3px white;
      box-shadow: 1px 2px 5px 3px white;
      text-align: center;
      background:rgb(0, 0, 0, 0.801);
@@ -72,11 +76,11 @@
      -moz-transition:.55s;
      -ms-transition:.55s;
      -o-transition: .55s;
-     box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
-     -moz-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
-     -webkit-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
-     -ms-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
-     -o-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.294);
+     -moz-box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
+     -webkit-box-shadow: 0 0 10px 0 rgba(136, 9, 9, 0.294);
+     -ms-box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
+     -o-box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
+     box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
      display: inline-block;
 }
  .header-button button:hover{
@@ -120,10 +124,10 @@
 }
  .nav-item a::after{
      content: '';
-     width: 0%;
+     width: 0;
      height: 3px;
      left: 50%;
-     bottom: 0%;
+     bottom: 0;
      border-radius: 10px;
      position: absolute;
      background-color:#ffc480;
@@ -138,7 +142,7 @@
 }
  .nav-item a:hover::after{
      width: 100%;
-     left: 0%;
+     left: 0;
 }
  .navbar-dark{
      background:transparent;
@@ -153,11 +157,11 @@
      position: fixed;
      width:100%;
      background: white;
-     box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
      -moz-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
      -webkit-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
      -ms-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
      -o-box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
+     box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.294);
 }
 /* background */
  #background{
@@ -208,11 +212,11 @@
      -moz-transition:.55s;
      -ms-transition:.55s;
      -o-transition: .55s;
-     box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
      -moz-box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
      -webkit-box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
      -ms-box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
      -o-box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
+     box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.294);
      display: inline-block;
      font-family: 'Work Sans', sans-serif;
 }
@@ -364,7 +368,7 @@
      -moz-transition: all 450ms ease;
      -ms-transition: all 450ms ease;
      -o-transition: all 450ms ease;
-     margin:0px 0px 50px 0px;
+     margin:0 0 50px 0;
 }
  .card-body h5{
      font-size:16px;
